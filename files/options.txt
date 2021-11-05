@@ -1,0 +1,13 @@
+launcher-back-col=292929
+launcher-btn-border-col=000000
+launcher-btn-fore-active-col=7E88BF
+launcher-btn-fore-inactive-col=6F6F6F
+launcher-btn-highlight-inactive-col=A8A8A8
+nostalgia-classicbg=True
+mode-classic=True
+nostalgia-hacks=False
+nostalgia-customblocks=False
+nostalgia-usecpe=False
+nostalgia-servertextures=False
+nostalgia-classictablist=True
+nostalgia-classicoptions=True

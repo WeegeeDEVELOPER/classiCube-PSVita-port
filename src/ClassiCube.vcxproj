@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8A7D82BD-178A-4785-B41B-70EDE998920A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ClassiCube</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)x86\Debug\</OutDir>
+    <IntDir>x86\Debug\obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)x64\Debug\</OutDir>
+    <IntDir>x64\Debug\obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)x86\Release\</OutDir>
+    <IntDir>x86\Release\obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)x64\Release\</OutDir>
+    <IntDir>x64\Release\obj\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
+      <PrecompiledHeaderFile />
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatSpecificWarningsAsErrors>4716;4013</TreatSpecificWarningsAsErrors>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <MinimumRequiredVersion>5.02</MinimumRequiredVersion>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalDependencies>d3d9.lib;opengl32.lib;ws2_32.lib;Wininet.lib;dbghelp.lib;Winmm.lib;crypt32.lib;ucrtd.lib;vcruntimed.lib;msvcrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
+      <PrecompiledHeaderFile />
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatSpecificWarningsAsErrors>4716;4013</TreatSpecificWarningsAsErrors>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalDependencies>d3d9.lib;opengl32.lib;ws2_32.lib;Wininet.lib;crypt32.lib;dbghelp.lib;Winmm.lib;ucrtd.lib;vcruntimed.lib;msvcrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
+      <PrecompiledHeaderFile />
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <TreatSpecificWarningsAsErrors>4716;4013</TreatSpecificWarningsAsErrors>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <MinimumRequiredVersion>5.02</MinimumRequiredVersion>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalDependencies>d3d9.lib;opengl32.lib;ws2_32.lib;Wininet.lib;crypt32.lib;dbghelp.lib;Winmm.lib;libucrt.lib;libvcruntime.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
+      <PrecompiledHeaderFile />
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <TreatSpecificWarningsAsErrors>4716;4013</TreatSpecificWarningsAsErrors>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalDependencies>d3d9.lib;opengl32.lib;ws2_32.lib;Wininet.lib;crypt32.lib;dbghelp.lib;Winmm.lib;libucrt.lib;libvcruntime.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Animations.h" />
+    <ClInclude Include="LBackend.h" />
+    <ClInclude Include="Http.h" />
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="AxisLinesRenderer.h" />
+    <ClInclude Include="BlockID.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="Builder.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Chat.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="Bitmap.h" />
+    <ClInclude Include="Drawer.h" />
+    <ClInclude Include="Drawer2D.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityComponents.h" />
+    <ClInclude Include="EnvRenderer.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Errors.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Formats.h" />
+    <ClInclude Include="Deflate.h" />
+    <ClInclude Include="Gui.h" />
+    <ClInclude Include="HeldBlockRenderer.h" />
+    <ClInclude Include="Launcher.h" />
+    <ClInclude Include="LScreens.h" />
+    <ClInclude Include="LWeb.h" />
+    <ClInclude Include="LWidgets.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Menus.h" />
+    <ClInclude Include="Protocol.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="IsometricDrawer.h" />
+    <ClInclude Include="Lighting.h" />
+    <ClInclude Include="Generator.h" />
+    <ClInclude Include="MapRenderer.h" />
+    <ClInclude Include="Options.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="BlockPhysics.h" />
+    <ClInclude Include="Picking.h" />
+    <ClInclude Include="PickedPosRenderer.h" />
+    <ClInclude Include="Resources.h" />
+    <ClInclude Include="Screens.h" />
+    <ClInclude Include="SelectionBox.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="Stream.h" />
+    <ClInclude Include="TexturePack.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="PackedCol.h" />
+    <ClInclude Include="Funcs.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="ExtMath.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="String.h" />
+    <ClInclude Include="Core.h" />
+    <ClInclude Include="Vectors.h" />
+    <ClInclude Include="Vorbis.h" />
+    <ClInclude Include="Widgets.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="World.h" />
+    <ClInclude Include="_GLShared.h" />
+    <ClInclude Include="_GraphicsBase.h" />
+    <ClInclude Include="_HttpBase.h" />
+    <ClInclude Include="_PlatformBase.h" />
+    <ClInclude Include="_WindowBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animations.c" />
+    <ClCompile Include="Graphics_D3D11.c" />
+    <ClCompile Include="Graphics_D3D9.c" />
+    <ClCompile Include="Graphics_GL1.c" />
+    <ClCompile Include="Audio.c" />
+    <ClCompile Include="Camera.c" />
+    <ClCompile Include="AxisLinesRenderer.c" />
+    <ClCompile Include="Block.c" />
+    <ClCompile Include="Builder.c" />
+    <ClCompile Include="Chat.c" />
+    <ClCompile Include="Bitmap.c" />
+    <ClCompile Include="Drawer.c" />
+    <ClCompile Include="Drawer2D.c" />
+    <ClCompile Include="EntityComponents.c" />
+    <ClCompile Include="EnvRenderer.c" />
+    <ClCompile Include="Event.c" />
+    <ClCompile Include="ExtMath.c" />
+    <ClCompile Include="Formats.c" />
+    <ClCompile Include="Game.c" />
+    <ClCompile Include="Graphics_GL2.c" />
+    <ClCompile Include="Gui.c" />
+    <ClCompile Include="HeldBlockRenderer.c" />
+    <ClCompile Include="Http_Web.c" />
+    <ClCompile Include="Http_Worker.c" />
+    <ClCompile Include="Inventory.c" />
+    <ClCompile Include="Launcher.c" />
+    <ClCompile Include="LBackend.c" />
+    <ClCompile Include="LScreens.c" />
+    <ClCompile Include="LWeb.c" />
+    <ClCompile Include="LWidgets.c" />
+    <ClCompile Include="Generator.c" />
+    <ClCompile Include="Deflate.c" />
+    <ClCompile Include="Model.c" />
+    <ClCompile Include="Menus.c" />
+    <ClCompile Include="Platform_Android.c" />
+    <ClCompile Include="Platform_Posix.c" />
+    <ClCompile Include="Platform_Web.c" />
+    <ClCompile Include="Platform_WinApi.c" />
+    <ClCompile Include="Protocol.c" />
+    <ClCompile Include="Physics.c" />
+    <ClCompile Include="IsometricDrawer.c" />
+    <ClCompile Include="Input.c" />
+    <ClCompile Include="Lighting.c" />
+    <ClCompile Include="Entity.c" />
+    <ClCompile Include="MapRenderer.c" />
+    <ClCompile Include="Options.c" />
+    <ClCompile Include="PackedCol.c" />
+    <ClCompile Include="Particle.c" />
+    <ClCompile Include="BlockPhysics.c" />
+    <ClCompile Include="PickedPosRenderer.c" />
+    <ClCompile Include="Picking.c" />
+    <ClCompile Include="Program.c" />
+    <ClCompile Include="Resources.c" />
+    <ClCompile Include="Screens.c" />
+    <ClCompile Include="SelectionBox.c" />
+    <ClCompile Include="Server.c" />
+    <ClCompile Include="Stream.c" />
+    <ClCompile Include="String.c" />
+    <ClCompile Include="TexturePack.c" />
+    <ClCompile Include="Utils.c" />
+    <ClCompile Include="Vectors.c" />
+    <ClCompile Include="Vorbis.c" />
+    <ClCompile Include="Widgets.c" />
+    <ClCompile Include="Logger.c" />
+    <ClCompile Include="Window_Android.c" />
+    <ClCompile Include="Window_Carbon.c" />
+    <ClCompile Include="Window_SDL.c" />
+    <ClCompile Include="Window_Web.c" />
+    <ClCompile Include="Window_Win.c" />
+    <ClCompile Include="Window_X11.c" />
+    <ClCompile Include="World.c" />
+    <ClCompile Include="_autofit.c" />
+    <ClCompile Include="_cff.c" />
+    <ClCompile Include="_ftbase.c" />
+    <ClCompile Include="_ftbitmap.c" />
+    <ClCompile Include="_ftglyph.c" />
+    <ClCompile Include="_ftinit.c" />
+    <ClCompile Include="_ftsynth.c" />
+    <ClCompile Include="_psaux.c" />
+    <ClCompile Include="_pshinter.c" />
+    <ClCompile Include="_psmodule.c" />
+    <ClCompile Include="_raster.c" />
+    <ClCompile Include="_sfnt.c" />
+    <ClCompile Include="_smooth.c" />
+    <ClCompile Include="_truetype.c" />
+    <ClCompile Include="_type1.c" />
+    <ClCompile Include="_type1cid.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

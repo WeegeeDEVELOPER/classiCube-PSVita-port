@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Platform">
+      <UniqueIdentifier>{eab38ecc-57ac-48f4-9ed2-7cbd40effb24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Platform">
+      <UniqueIdentifier>{3b121dcd-fc2e-4c0e-9e69-0a258df73fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{ce9032c9-7a6b-44bf-889b-5c368d5ecda7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{23df7aa9-c2fe-4dd9-ad2e-b07776510024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2D">
+      <UniqueIdentifier>{94eedec7-46cb-47cd-8729-fbf215de1cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2D\Utils">
+      <UniqueIdentifier>{7d28399b-8919-4015-b261-cfd8d18a7367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{eb2aab2d-07f1-4d52-b13f-7ef7d40dcc70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2D">
+      <UniqueIdentifier>{cad3dc8e-cd49-4116-bc6b-25a9d639e262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2D\Utils">
+      <UniqueIdentifier>{528b0a8e-8aed-4f9d-8e8c-5105210337c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{f54c6d3f-3a01-4c8d-8211-7a3ef5837674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map">
+      <UniqueIdentifier>{0ff1e440-e67d-4e09-913d-56417fbfe6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map">
+      <UniqueIdentifier>{cb26e83f-9153-4964-9dc2-13502fbb1d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TexturePack">
+      <UniqueIdentifier>{b5bd9aed-4b11-4f9f-86da-3187d3f4f260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TexturePack">
+      <UniqueIdentifier>{3b30c545-c654-4231-80b0-958667ee1645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MeshBuilder">
+      <UniqueIdentifier>{e930ab4d-b244-40d2-bf49-374937989d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MeshBuilder">
+      <UniqueIdentifier>{1012ed27-a9f2-4b01-a9a4-be75e2a1e2f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{d746c4e4-411e-4e25-9e79-a2fceabe7cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{2134e4ed-c57e-40b2-b329-5f5b7b71a799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{759424b7-9977-45d7-9946-b6cc9875231b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{82a3fbdf-5459-4e08-bff9-04dd23aa4342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{62c942cf-1d93-4e9c-8635-61fa1ec2bbdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{8d7c1d32-a06b-483d-ab34-93717e221cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SelectionBox">
+      <UniqueIdentifier>{55de84c8-3e19-4dd3-ba8d-a4c19059e6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SelectionBox">
+      <UniqueIdentifier>{402f2b0c-e2c2-47d3-b73f-3293c50db513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{dead5fb3-a62a-4eb7-8d74-ce73e66ab9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{47b3db41-6a79-47ca-a2b0-72d5ccb26bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Blocks">
+      <UniqueIdentifier>{3ca12726-ff14-4e95-9f3b-4c4bab3d2122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{9e70549b-2798-4372-b887-876f8403a7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{7a7adf1b-3c7f-4c3b-833b-656e2e61a2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Blocks">
+      <UniqueIdentifier>{f693e3de-8aee-440f-9edc-61544d2f7f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{570b92b8-b3df-40cb-a42a-da14c81c877a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio">
+      <UniqueIdentifier>{fee32b2d-e320-4681-9d5d-9904ca911271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio">
+      <UniqueIdentifier>{b6f24d6b-c6f6-4909-9ae1-f0c478846c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Freetype">
+      <UniqueIdentifier>{bff86df8-7005-42a8-80c1-5468c1196336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Launcher">
+      <UniqueIdentifier>{6b1102a4-29d5-4c01-8f32-b9d9cb19b8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Launcher">
+      <UniqueIdentifier>{a46e060c-8a75-436f-ac18-f35d184735af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{e417a755-7f7f-4932-99d1-a1e9a1066e0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Platform.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockID.h">
+      <Filter>Header Files\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header Files\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Header Files\2D\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectors.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtMath.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Funcs.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PackedCol.h">
+      <Filter>Header Files\2D\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer.h">
+      <Filter>Header Files\MeshBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionBox.h">
+      <Filter>Header Files\SelectionBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Lighting.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisLinesRenderer.h">
+      <Filter>Header Files\SelectionBox</Filter>
+    </ClInclude>
+    <ClInclude Include="PickedPosRenderer.h">
+      <Filter>Header Files\SelectionBox</Filter>
+    </ClInclude>
+    <ClInclude Include="IsometricDrawer.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>Header Files\MeshBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="Picking.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Deflate.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Formats.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer2D.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Chat.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityComponents.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="HeldBlockRenderer.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Menus.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturePack.h">
+      <Filter>Header Files\TexturePack</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvRenderer.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Vorbis.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Errors.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MapRenderer.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockPhysics.h">
+      <Filter>Header Files\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Launcher.h">
+      <Filter>Header Files\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Header Files\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="LWidgets.h">
+      <Filter>Header Files\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="LWeb.h">
+      <Filter>Header Files\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="LScreens.h">
+      <Filter>Header Files\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Http.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Generator.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Animations.h">
+      <Filter>Header Files\TexturePack</Filter>
+    </ClInclude>
+    <ClInclude Include="_PlatformBase.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="LBackend.h">
+      <Filter>Header Files\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="_GraphicsBase.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="_HttpBase.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="_WindowBase.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="_GLShared.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="String.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.c">
+      <Filter>Source Files\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.c">
+      <Filter>Source Files\2D\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors.c">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtMath.c">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="World.c">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="PackedCol.c">
+      <Filter>Source Files\2D\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer.c">
+      <Filter>Source Files\MeshBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream.c">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionBox.c">
+      <Filter>Source Files\SelectionBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting.c">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisLinesRenderer.c">
+      <Filter>Source Files\SelectionBox</Filter>
+    </ClCompile>
+    <ClCompile Include="PickedPosRenderer.c">
+      <Filter>Source Files\SelectionBox</Filter>
+    </ClCompile>
+    <ClCompile Include="IsometricDrawer.c">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.c">
+      <Filter>Source Files\MeshBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.c">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Picking.c">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.c">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Deflate.c">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Formats.c">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.c">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer2D.c">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.c">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Widgets.c">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Screens.c">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Chat.c">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.c">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityComponents.c">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="HeldBlockRenderer.c">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.c">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Menus.c">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturePack.c">
+      <Filter>Source Files\TexturePack</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvRenderer.c">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.c">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Vorbis.c">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.c">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MapRenderer.c">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockPhysics.c">
+      <Filter>Source Files\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="_autofit.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_cff.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_ftbase.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_ftbitmap.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_ftglyph.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_ftinit.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_ftsynth.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_psaux.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_pshinter.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_psmodule.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_raster.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_sfnt.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_smooth.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_type1.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_type1cid.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="_truetype.c">
+      <Filter>Source Files\Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="Launcher.c">
+      <Filter>Source Files\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.c">
+      <Filter>Source Files\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="LWidgets.c">
+      <Filter>Source Files\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="LWeb.c">
+      <Filter>Source Files\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="LScreens.c">
+      <Filter>Source Files\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.c">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.c">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.c">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Generator.c">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.c">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.c">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Animations.c">
+      <Filter>Source Files\TexturePack</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform_WinApi.c">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform_Web.c">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform_Posix.c">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="LBackend.c">
+      <Filter>Source Files\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics_D3D9.c">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Http_Web.c">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Http_Worker.c">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Window_SDL.c">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Window_Web.c">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Window_Android.c">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Window_X11.c">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Window_Win.c">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Window_Carbon.c">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics_D3D11.c">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform_Android.c">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics_GL1.c">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics_GL2.c">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
